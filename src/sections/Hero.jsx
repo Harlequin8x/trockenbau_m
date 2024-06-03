@@ -15,7 +15,7 @@ const Hero = () => {
           {paragraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm"
+              className="font-montserrat text-slate-gray text-lg leading-8 mt-4 mb-2 sm:max-w-sm"
             >
               {paragraph}
             </p>
