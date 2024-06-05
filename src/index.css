@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -61,9 +61,23 @@
   }
 
   .search-container {
-    display: flex;  /* Set the container to display as flexbox */
-    justify-content: center;  /* Center the content horizontally */
-    align-items: center;   /*Center the content vertically (optional) */    
+    display: flex; /* Set the container to display as flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /*Center the content vertically (optional) */
+  }
+
+  .the-images {    
+    max-width: 500px;
+    max-height: 400px;
+    width: auto;
+  
+    display: block;
+    margin: 0 auto;
   }
   
+  .max-width-navbar {
+    max-width: 2200px;
+    margin: 0 auto;
+  }
+
 }

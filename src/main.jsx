@@ -14,14 +14,14 @@ const router = createBrowserRouter([
     path: 'leistungen',
     element: <Service />,
   },
-  {
-    path: 'über-uns',
-    element: <Service />,
-  },
-  {
-    path: 'kontakt',
-    element: <Service />,
-  },
+  // {
+  //   path: 'über-uns',
+  //   element: <Über uns />,
+  // },
+  // {
+  //   path: 'kontakt',
+  //   element: <Kontakt />,
+  // },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

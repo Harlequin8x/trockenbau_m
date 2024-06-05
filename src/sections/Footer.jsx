@@ -28,7 +28,7 @@ const Footer = () => {
               height={20}
               className="rounded-full m-0"
             />
-            <p>Gebr. Muratidis 2010. Alle Rechte vorbehalten.</p>
+            <p>Gebr. Muratidis 2024.</p>
           </div>
         </div>
       </div>
