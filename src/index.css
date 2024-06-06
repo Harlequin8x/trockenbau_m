@@ -74,10 +74,25 @@
     display: block;
     margin: 0 auto;
   }
+
+  .the-images2 {    
+    max-width: 1200px;
+    max-height: 1100px;
+    width: auto;
+  
+    display: block;
+    margin: 0 auto;
+  }
   
   .max-width-navbar {
     max-width: 2200px;
     margin: 0 auto;
+  }
+
+  .flex-left {
+    display: flex;
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: flex-start;  /* Align items to the start (left) */
   }
 
 }

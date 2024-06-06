@@ -4,11 +4,11 @@ const ServiceHero = () => {
   return (
     <section>
       <div>
-        <p className="text-4xl font-semibold mb-8 ml-14 ">Unsere Leistungen</p>
+        <p className="text-4xl font-semibold mb-8 ml-24">Unsere Leistungen</p>
         <br />
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mr-80">
+      <div className="grid grid-cols-3 gap-4">
         <div className="flex flex-col items-center">
           <img
             src={Waermeschutz}
@@ -62,6 +62,7 @@ const ServiceHero = () => {
           />
           <p className="text-center mt-4 font-bold">Lichtakzente</p>
         </div>
+
       </div>
     </section>
   )
