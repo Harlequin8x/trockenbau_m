@@ -1,15 +1,17 @@
 import Nav from './components/Nav'
 import Footer from './sections/Footer'
-
-const contact = () => (
-    <main className="relative">
+import ContactHero from './contactSection/ContactHero'
+ 
+const Contact = () => (
+  <main className="relative">
     <Nav />
-    <p>contact</p>
+    <section className="padding">
+      <ContactHero />
+    </section>
     <section className="bg-black padding-x padding-t pb-8">
       <Footer />
     </section>
   </main>
 )
 
-
-export default contact
+export default Contact

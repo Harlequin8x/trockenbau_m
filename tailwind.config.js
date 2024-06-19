@@ -25,7 +25,7 @@ export default {
         'primary': "#ECEEFF",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
-        "gray": "#94a3b8",
+        "gray": "#e2e8f0",
         "purple": "#7C32FF",
         "red": "#ef4444",    
         "dark-red": "#b91c1c",

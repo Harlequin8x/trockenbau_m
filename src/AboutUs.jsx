@@ -3,7 +3,7 @@ import Footer from './sections/Footer'
 import AboutUsHero from './aboutUsSection/AboutUsHero'
 
 const AboutUs = () => (
-    <main className="relative">
+  <main className="relative">
     <Nav />
     <section className="padding">
       <AboutUsHero />
@@ -13,6 +13,5 @@ const AboutUs = () => (
     </section>
   </main>
 )
-
 
 export default AboutUs
